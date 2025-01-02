@@ -1,0 +1,57 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0,60)">
+    <!-- the main chip shape -->
+    <rect width="800" height="450" x="50" y="50" fill="lightgray" stroke="black" stroke-width="3" />
+    <rect width="770" height="425" x="65" y="64" fill="white" stroke="black" stroke-width="3" />
+
+    <!-- the notch and label -->
+    <path d="M 62 225 C 140 225, 140 325, 62 325" fill="lightgray" stroke="black" stroke-width="3" />
+    <text x="445" y="310" text-anchor="middle" font-family="sans-serif" font-size="6em" fill="gray">7474</text>
+
+    <!-- top row of pins -->
+    <rect width="80" height="75" x="110" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="150" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">14</text>
+    <text x="150" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">Vcc</text>
+    <rect width="80" height="75" x="210" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="250" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">13</text>
+    <text x="250" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2CLR</text>
+    <rect width="80" height="75" x="310" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="350" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">12</text>
+    <text x="350" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2D</text>
+    <rect width="80" height="75" x="410" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="450" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">11</text>
+    <text x="450" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2CLK</text>
+    <rect width="80" height="75" x="510" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="550" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">10</text>
+    <text x="550" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2PRE</text>
+    <rect width="80" height="75" x="610" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="650" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">9</text>
+    <text x="650" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2Q</text>
+    <rect width="80" height="75" x="710" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="750" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">8</text>
+    <text x="750" y="-25" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">2Q'</text>
+
+    <!-- bottom row of pins -->
+    <rect width="80" height="75" x="110" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="150" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">1</text>
+    <text x="150" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1CLR</text>
+    <rect width="80" height="75" x="210" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="250" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">2</text>
+    <text x="250" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1D</text>
+    <rect width="80" height="75" x="310" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="350" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">3</text>
+    <text x="350" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1CLK</text>
+    <rect width="80" height="75" x="410" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="450" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">4</text>
+    <text x="450" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1PRE</text>
+    <rect width="80" height="75" x="510" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="550" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">5</text>
+    <text x="550" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1Q</text>
+    <rect width="80" height="75" x="610" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="650" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">6</text>
+    <text x="650" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">1Q'</text>
+    <rect width="80" height="75" x="710" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="750" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">7</text>
+    <text x="750" y="610" text-anchor="middle" font-family="sans-serif" font-size="2em" fill="black">GND</text>
+  </g>
+</svg>
