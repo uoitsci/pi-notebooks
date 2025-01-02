@@ -1,0 +1,31 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0,0)">
+    <!-- input lines -->
+    <line x1="55" y1="60" x2="175" y2="60" stroke="black" stroke-width="5" />
+    <text x="30" y="75" text-anchor="middle" font-family="sans-serif" font-size="3em"  fill="black">R</text>
+    
+    <line x1="55" y1="240" x2="175" y2="240" stroke="black" stroke-width="5" />
+    <text x="30" y="255" text-anchor="middle" font-family="sans-serif" font-size="3em"  fill="black">S</text>
+
+    <!-- output lines -->
+    <line x1="234" y1="75" x2="350" y2="75" stroke="black" stroke-width="5" />
+    <text x="380" y="90" text-anchor="middle" font-family="sans-serif" font-size="3em"  fill="black">Q</text>
+
+    <line x1="234" y1="225" x2="350" y2="225" stroke="black" stroke-width="5" />
+    <text x="380" y="240" text-anchor="middle" font-family="sans-serif" font-size="3em"  fill="black">Q</text>
+    <line x1="365" y1="195" x2="395" y2="195" stroke="black" stroke-width="5" />
+      
+    <!-- loopback lines -->
+    <polyline points="300 75, 300 125, 100 190, 100, 215 175, 215" stroke="black" stroke-width="5" fill="none" />
+    <circle cx="300" cy="75" r="5" stroke="black" stroke-width="5" fill="black" />
+    <polyline points="300 225, 300 175, 100 110, 100, 90 175, 90" stroke="black" stroke-width="5" fill="none" />
+    <circle cx="300" cy="225" r="5" stroke="black" stroke-width="5" fill="black" />
+      
+    <!-- NOR gates -->
+    <path d="M 160 50 L 170 50 Q 205 50, 225 75 Q 205 100, 170 100 L 160 100 Q 175 75, 160 50" fill="white" stroke="black" stroke-width="5" />
+    <circle cx="234" cy="75" r="10" stroke="black" stroke-width="5" fill="white" />
+      
+    <path d="M 160 200 L 170 200 Q 205 200, 225 225 Q 205 250, 170 250 L 160 250 Q 175 225, 160 200" fill="white" stroke="black" stroke-width="5" />
+    <circle cx="234" cy="225" r="10" stroke="black" stroke-width="5" fill="white" />
+  </g>
+</svg>

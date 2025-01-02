@@ -1,0 +1,88 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0,60)">
+    <!-- the main chip shape -->
+    <rect width="800" height="450" x="50" y="50" fill="lightgray" stroke="black" stroke-width="3" />
+    <rect width="770" height="425" x="65" y="64" fill="white" stroke="black" stroke-width="3" />
+
+    <!-- the notch and label -->
+    <path d="M 62 225 C 140 225, 140 325, 62 325" fill="lightgray" stroke="black" stroke-width="3" />
+    <text x="445" y="310" text-anchor="middle" font-family="sans-serif" font-size="6em" fill="gray">7404</text>
+
+    <!-- top row of pins -->
+    <rect width="80" height="75" x="110" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="150" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">14</text>
+    <text x="150" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">Vcc</text>
+    <rect width="80" height="75" x="210" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="250" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">13</text>
+    <text x="250" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">6A</text>
+    <rect width="80" height="75" x="310" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="350" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">12</text>
+    <text x="350" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">6Y</text>
+    <rect width="80" height="75" x="410" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="450" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">11</text>
+    <text x="450" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">5A</text>
+    <rect width="80" height="75" x="510" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="550" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">10</text>
+    <text x="550" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">5Y</text>
+    <rect width="80" height="75" x="610" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="650" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">9</text>
+    <text x="650" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">4A</text>
+    <rect width="80" height="75" x="710" y="-10"  fill="white" stroke="black" stroke-width="5" />
+    <text x="750" y="45" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">8</text>
+    <text x="750" y="-25" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">4Y</text>
+
+    <!-- bottom row of pins -->
+    <rect width="80" height="75" x="110" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="150" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">1</text>
+    <text x="150" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">1A</text>
+    <rect width="80" height="75" x="210" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="250" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">2</text>
+    <text x="250" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">1Y</text>
+    <rect width="80" height="75" x="310" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="350" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">3</text>
+    <text x="350" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">2A</text>
+    <rect width="80" height="75" x="410" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="450" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">4</text>
+    <text x="450" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">2Y</text>
+    <rect width="80" height="75" x="510" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="550" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">5</text>
+    <text x="550" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">3A</text>
+    <rect width="80" height="75" x="610" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="650" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">6</text>
+    <text x="650" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">3Y</text>
+    <rect width="80" height="75" x="710" y="485"  fill="white" stroke="black" stroke-width="5" />
+    <text x="750" y="540" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">7</text>
+    <text x="750" y="610" text-anchor="middle" font-family="sans-serif" font-size="3em" fill="black">GND</text>
+
+    <!-- the gates -->
+    <polyline points="150, 485 150, 375 168, 375" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="225, 375 250, 375 250, 485" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="168, 350 168, 400 215, 375 168, 350"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="225" cy="375" r="10" stroke="black" stroke-width="5" fill="white" />
+
+    <polyline points="350, 485 350, 375 368, 375" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="425, 375 450, 375 450, 485" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="368, 350 368, 400 415, 375 368, 350"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="425" cy="375" r="10" stroke="black" stroke-width="5" fill="white" />
+
+    <polyline points="550, 485 550, 375 568, 375" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="625, 375 650, 375 650, 485" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="568, 350 568, 400 615, 375 568, 350"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="625" cy="375" r="10" stroke="black" stroke-width="5" fill="white" />
+
+    <polyline points="250, 65 250, 175 268, 175" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="325, 175 350, 175 350, 65" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="268, 150 268, 200 315, 175 268, 150"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="325" cy="175" r="10" stroke="black" stroke-width="5" fill="white" />
+      
+    <polyline points="450, 65 450, 175 468, 175" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="525, 175 550, 175 550, 65" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="468, 150 468, 200 515, 175 468, 150"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="525" cy="175" r="10" stroke="black" stroke-width="5" fill="white" />
+
+    <polyline points="650, 65 650, 175 668, 175" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="725, 175 750, 175 750, 65" stroke="black" stroke-width="3" fill="white" />
+    <polyline points="668, 150 668, 200 715, 175 668, 150"  stroke="black" stroke-width="5" fill="white" />
+    <circle cx="725" cy="175" r="10" stroke="black" stroke-width="5" fill="white" />
+  </g>
+</svg>
